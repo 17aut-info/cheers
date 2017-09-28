@@ -1,0 +1,77 @@
+/*ロゴ（暫定）*/
+
+h1 img{
+  width:50%;
+  height: 50%;
+  display: block;
+
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -50px;
+}
+body{
+  background-image: url("cheers_back2.jpg");
+  background-repeat: no-repeat;            /* 背景を繰り返さない */
+  background-position: 50% 50%;            /* 背景画像の位置は画面中央 */
+  background-attachment:fixed;             /* 背景画像を固定する */
+  background-size: 100%;
+
+  }
+
+
+
+/*Googleマップ*/
+#mapField {
+  width: 350px;
+  height: 350px;
+  color: black;
+}
+
+
+/*グローバルナビ*/
+
+#nav{
+  margin:10px 0;
+    padding:0 0 0 65%;
+    width:490px;
+    height:50px;
+    overflow:hidden;
+    }
+
+#nav li { list-style:none;  width:98px; float:left; }
+
+
+
+.story{
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding: 25px 250px;
+}
+
+.band{
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  margin-bottom: 50px;
+  padding: 25px 250px;
+  }
+
+
+  .info{
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    padding: 25px 250px;
+    }
