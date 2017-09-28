@@ -6,7 +6,8 @@
     <title>Cheers!</title>
     <script type="text/javascript" src="jquery-3.2.1.min.js"></script>
     <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
-
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="jquery-animation.js"></script>
     <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
   </head>
@@ -23,17 +24,18 @@
 
     <h1 class="logo"><a href="index.html"><img src="logo.png"></a></h1>
 
-
-    <div class="story"><center><h3>STORY</h3></center>
+    <div class="entire">
+    <div class="effect"><div class="story"><center><h2>STORY</h2></center>
     <p>アカペラレストラン「Cheers！」をオープンさせようと張り切る17一同。
       今日はお店をオープンしてもいいか、審査してもらう重要な1日である。
       審査員は、一般のお客様。
       果たして、17はこの試練を乗り越えることができるのだろうか•••
-    </p></div>
+    </p></div></div>
 
 
     <!-- サマソニのページみたいに？ -->
-      <div class="band"><center><h3>BAND</h3></center><div class="band_listbox">
+
+      <div class="effect"><div class="band"><center><h2>BAND</h2></center><div class="band_listbox">
       <dl class="a001"><dt><img src="" data-src="" class="" alt=""></dt><dd>だ・かーぽ</dd></dl></a>
       <dl class="a001"><dt><img src="" data-src="" class="" alt=""></dt><dd>しゅがしゅがるーん</dd></dl></a>
       <dl class="a001"><dt><img src="" data-src="" class="" alt=""></dt><dd>リャナンシー</dd></dl></a>
@@ -54,10 +56,13 @@
       <dl class="a001"><dt><img src="" data-src="" class="" alt=""></dt><dd>レプレコーン</dd></dl></a>
       <dl class="a001"><dt><img src="" data-src="" class="" alt=""></dt><dd>Showbiz</dd></dl></a>
       <dl class="a001"><dt><img src="" data-src="" class="" alt=""></dt><dd>【No time】</dd></dl></a>
-    </div></div>
+    </div></div></div>
 
 
-    <div class="info"><center><h3>INFOMATION</h3></center>
+
+    <div class="effect">
+    <div class="info">
+    <center><h2>INFOMATION</h2></center>
     <table>
       <tr class="about">
         <td class="about_mds">開催日</td>
@@ -80,9 +85,11 @@
         </tr>
     </table>
 
-    <h2>ACCESS</h2>
+    <h3>ACCESS</h3>
       <div id="mapField"></div>
     </div>
+  </div>
+</div>
 
   </body>
 

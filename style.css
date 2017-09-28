@@ -15,6 +15,10 @@ body{
   background-position: 50% 50%;            /* 背景画像の位置は画面中央 */
   background-attachment:fixed;             /* 背景画像を固定する */
   background-size: 100%;
+  font-family: 'Helvetica Neue','Helvetica','Arial',YuGothic,'Yu Gothic','Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3','メイリオ', Meiryo,'ＭＳ ゴシック',sans-serif;
+  letter-spacing: 0.1em;
+  line-height: 2;
+
 
   }
 
@@ -42,6 +46,18 @@ body{
 
 
 
+/*.entire{
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding: 25px 250px;
+}*/
+
+
 .story{
   color: white;
   background-color: rgba(0, 0, 0, 0.5);
@@ -51,7 +67,13 @@ body{
   margin-top: 50px;
   margin-bottom: 50px;
   padding: 25px 250px;
+  margin-top: 150px;
+  margin-bottom: 130px;
+
 }
+
+
+
 
 .band{
   color: white;
@@ -62,6 +84,9 @@ body{
   margin-top: 100px;
   margin-bottom: 50px;
   padding: 25px 250px;
+
+  margin-top: 150px;
+  margin-bottom: 130px;
   }
 
 
@@ -74,4 +99,15 @@ body{
     margin-top: 100px;
     margin-bottom: 50px;
     padding: 25px 250px;
+
+    margin-top: 150px;
+    margin-bottom: 50px;
+    }
+
+
+    .effect p,
+    .effect div
+    {
+
+    	transition: .8s;
     }
