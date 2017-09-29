@@ -9,6 +9,7 @@ h1 img{
   margin-right: auto;
   margin-top: -50px;
 }
+
 body{
   background-image: url("cheers_back2.jpg");
   background-repeat: no-repeat;            /* 背景を繰り返さない */
@@ -19,8 +20,25 @@ body{
   letter-spacing: 0.1em;
   line-height: 2;
 
-
   }
+
+  h2{
+    text-align: center;
+  }
+
+/*.band img{
+  width:95%;
+  height: 95%;
+}*/
+
+/*.band_listbox{
+  margin: 0px auto;
+}*/
+
+
+
+
+
 
 
 
@@ -83,10 +101,44 @@ body{
   margin-right: auto;
   margin-top: 100px;
   margin-bottom: 50px;
-  padding: 25px 250px;
+  padding: 25px 25px;
 
   margin-top: 150px;
   margin-bottom: 130px;
+  }
+
+  .left{
+    width: 50%;
+    display: inline-block;
+  }
+
+  .left img{
+    float:left;
+    width: 95%;
+    height: 95%;
+  }
+
+  .left p{
+    margin-top: -10px;
+    text-align: center;
+    padding-right: 5%;
+  }
+
+  .right{
+    width: 50%;
+    float: right;
+  }
+
+  .right img{
+    float: right;
+    width: 95%;
+    height: 95%;
+  }
+
+  .right p{
+    margin-top: -10px;
+    text-align: center;
+    padding-left: 5%;
   }
 
 
