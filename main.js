@@ -1,3 +1,6 @@
+
+// GoogleMap
+
 function mapInit() {
     var centerPosition = new google.maps.LatLng(35.387415, 139.426093);
     var option = {
@@ -23,7 +26,7 @@ function mapInit() {
     mapInit();
 
 
-
+// スクロールした時にふんわり表示
     $(function(){
       //見えないようにしとく
       $('.effect div, .effect p').css("opacity","0");
@@ -59,3 +62,19 @@ function mapInit() {
         });
       });
     });
+
+
+
+// グローバルナビ固定
+
+jQuery(function($) {
+	var nav = $('#nav'),
+	offset = nav.offset();
+	$(window).scroll(function () {
+	  if($(window).scrollTop() > offset.top) {
+	    nav.addClass('fixed');
+	  } else {
+	    nav.removeClass('fixed');
+	  }
+	});
+});
