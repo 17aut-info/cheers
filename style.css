@@ -4,18 +4,39 @@ h1 img{
   width:50%;
   height: 50%;
   display: block;
-
+  padding: 0;
   margin-left: auto;
   margin-right: auto;
   margin-top: -40px;
 }
 
+.title_text{
+  background-color: white;
+  opacity: 0.8;
+  width: 96%;
+  padding-left: 4%;
+  color: black;
+  height: 60px;
+  padding-right: 0;
+  padding-bottom: 2%;
+  padding-top: 0;
+  font-size: 40px;
+  a {color: black}
+
+}
+
+a {text-decoration: none}
+a {color: white}
+
+
 html{
-    background-color: black;
+  padding: 0;
 }
 
 body{
-  /*width:100%;*/
+  width:100%;
+  padding: 0;
+
   background-image: url("cheers_back2.jpg");
   background-repeat: no-repeat;            /* 背景を繰り返さない */
   background-position: 50% 50%;            /* 背景画像の位置は画面中央 */
@@ -24,6 +45,7 @@ body{
   font-family: 'Helvetica Neue','Helvetica','Arial',YuGothic,'Yu Gothic','Hiragino Kaku Gothic ProN','ヒラギノ角ゴ ProN W3','メイリオ', Meiryo,'ＭＳ ゴシック',sans-serif;
   letter-spacing: 0.1em;
   line-height: 2;
+  background-color: black;
 
   }
 
@@ -94,7 +116,6 @@ body{
 
 
 .story{
-
   color: white;
   background-color: rgba(0, 0, 0, 0.6);
 
@@ -105,12 +126,12 @@ body{
   padding: 25px 250px;
   margin-top: 150px;
   margin-bottom: 130px;*/
-    margin-left: auto;
+  margin-left: auto;
   margin-right: auto;
-  margin-top: 150px;
+  margin-top: 250px;
   margin-bottom: 50px;
   padding: 25px 200px;
-
+  
 
 }
 
@@ -331,7 +352,7 @@ display: block;
         background-image: url("cheers_back2.jpg");
         background-repeat: no-repeat;            /* 背景を繰り返さない */
         background-attachment:fixed;
-        background-size: 250%;
+        background-size: 270%;
 
 
       }
