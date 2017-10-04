@@ -253,14 +253,23 @@ body{
 table{
   float: left;
   width: 50%;
-  padding-left: 10%;
+  padding-left: 15%;
 }
 
-    .access{
+.access{
       display:inline-block;
       width: 30%;
       padding-left: 10%;
     }
+
+.about_mds{
+  font-weight: bold;
+  padding-right: 5%;
+  padding-left: 2%;
+  width: 25%;
+}
+
+
 
 
     .effect p,
@@ -468,7 +477,7 @@ display: block;
         margin-top: -10px;
         text-align: center;
 
-        margin-bottom: 5%;
+        margin-bottom: -10%;
       }
 
 
@@ -488,7 +497,7 @@ display: block;
         margin-top: -10px;
         text-align: center;
 
-        margin-bottom: 5%;
+        margin-bottom: -10%;
       }
 
       .info{
@@ -511,12 +520,13 @@ display: block;
 
       .access{
         width: 100%;
-        padding-left: 0px;
+        padding: 0 2%;
       }
 
       table{
         width: 100%;
         padding: 0;
+
       }
 
       .modal-window .modal-inner {
