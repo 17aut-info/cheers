@@ -221,17 +221,20 @@ body{
     }
 
     .info_access{
-      padding-left: 150px;
+      padding: 0 30px;
+
     }
 
 table{
   float: left;
+  width: 50%;
+  padding-left: 10%;
 }
 
     .access{
       display:inline-block;
-      width: 40%;
-      padding-left: 150px;
+      width: 30%;
+      padding-left: 10%;
     }
 
 
@@ -460,12 +463,17 @@ display: block;
       }
 
       .info_access{
-        padding-left: 0px;
+        padding: 0;
       }
 
       .access{
         width: 100%;
         padding-left: 0px;
+      }
+
+      table{
+        width: 100%;
+        padding: 0;
       }
 
       .modal-window .modal-inner {
