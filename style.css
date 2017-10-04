@@ -546,8 +546,10 @@ display: block;
       }
 
       .modal-window .modal-inner p {
-        padding: 30px 10px 0;
+        padding: 20px 10px ;
         color: black;
+        margin-bottom: 1%;
+        margin-top: 1%;
       }
 
     }
